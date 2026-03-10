@@ -190,7 +190,7 @@ export default function Home() {
               <div key={blog._id} className="bg-white rounded-lg shadow p-6">
                 {blog.image && (
                   <img
-                    src={`http://3.111.0.97/uploads/${blog.image}`}
+                    src={`http://localhost:5000/uploads/${blog.image}`}
                     alt={blog.title}
                     className="w-full h-64 object-cover rounded-lg mb-4"
                   />
