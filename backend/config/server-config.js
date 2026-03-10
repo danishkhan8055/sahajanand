@@ -14,7 +14,7 @@ config();
 const app = express();
 
 const corsOption = {
-  origin: ["http://localhost:5000", "http://localhost:5173"],
+  origin: ["http://localhost:5000", "http://localhost:5173" ['http://3.111.0.97']],
   credentials: true,
 };
 
