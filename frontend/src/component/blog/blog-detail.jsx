@@ -52,7 +52,7 @@ export default function BlogDetail() {
           <>
             {blog?.image && (
               <img
-                src={`http://localhost:5000/uploads/${blog.image}`}
+                src={`http://3.111.0.97/uploads/${blog.image}`}
                 alt={blog?.title}
                 className="w-full h-96 object-cover rounded-lg mb-6"
               />
