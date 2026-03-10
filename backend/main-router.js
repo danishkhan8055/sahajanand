@@ -3,8 +3,8 @@ import userRouter from "./router/user-router.js"
 import blogRouter from "./router/blog-router.js"
 import path from "path";
 
-app.use("/user", userRouter);
-app.use("/blog", blogRouter)
+app.use("/api/user", userRouter);
+app.use("/api/blog", blogRouter)
 
 // SPA fallback - serve index.html for any non-API routes
 app.get(/.*/, (req, res) => {

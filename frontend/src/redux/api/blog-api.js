@@ -4,7 +4,7 @@ export const blogApi = createApi({
   reducerPath: "blogApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/api/blog",
+    baseUrl: "/api/blog",
     credentials: "include",
   }),
 
