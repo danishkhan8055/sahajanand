@@ -52,7 +52,7 @@ export default function BlogManagement() {
               <>
                 {blog.image && (
                   <img
-                    src={`http://localhost:5000/uploads/${blog.image}`}
+                    src={`/uploads/${blog.image}`}
                     alt={blog.title}
                     className="w-full h-40 object-cover rounded-lg mb-4"
                   />
